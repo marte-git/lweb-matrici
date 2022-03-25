@@ -21,9 +21,9 @@ l = (char *) malloc(12);
 	 scanf("%d", &m[i][j]);
   }
 
-ho cancellato return
+return;
 }
-/* la funzione precedente e' sbagliata */
+/* la funzione precedente non e' piu' sbagliata */
 
 /* funzione che riceve una matrice di interi, NxM, 
 rappresentata come un array bidimensionale di interi di dimensione NxM, 
