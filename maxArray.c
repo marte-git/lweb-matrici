@@ -9,9 +9,12 @@ e poi ne calcola e stampa il massimo */
 
 /* funzione che, ricevuto un array di N elementi double, lo stampa in output per benino */
 void stampaArray (double a[N]) {
-    int i;
+    int i, j, k, l;
 
   printf ("(");
+
+  j=k=l=100;
+
   for (i=0; i<N; i++) 
       printf (" %g ", a[i]);
   printf (")\n\n");
