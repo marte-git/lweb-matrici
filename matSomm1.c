@@ -1,5 +1,4 @@
-/* somma di due matrici in una terza, con relative stampe
- */
+/* somma di due matrici in una terza, con relative stampe  */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,9 +20,10 @@ l = (char *) malloc(12);
       for (j=0; j<M; j++)
 	 scanf("%d", &m[i][j]);
   }
-return;
-}
 
+ho cancellato return
+}
+/* la funzione precedente e' sbagliata */
 
 /* funzione che riceve una matrice di interi, NxM, 
 rappresentata come un array bidimensionale di interi di dimensione NxM, 
